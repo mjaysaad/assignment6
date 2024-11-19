@@ -1,0 +1,4 @@
+mkdir -p .github/workflows
+touch .github/workflows/build-container.yml
+nano .github/workflows/build-container.yml
+
