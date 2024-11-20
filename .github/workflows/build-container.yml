@@ -1,3 +1,4 @@
+GNU nano 8.2         .github/workflows/build-container.yml
 name: Build and Push Container
 on:
   push:
@@ -18,8 +19,3 @@ jobs:
           username: ${{ secrets.mjaysaad }}
           password: ${{ secrets.Abdulmajed@79 }}
 
-      - name: Build and push container
-        run: |
-          docker build -t my-container .
-          docker tag my-container mjaysaad/assignment6:prod
-          docker push mjaysaad/assignment6:prod
