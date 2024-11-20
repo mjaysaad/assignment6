@@ -21,8 +21,8 @@ jobs:
       - name: Build and push container
         run: |
           docker build -t my-container .
-          docker tag my-container <dockerhub_username>/assignment6:prod
-          docker push <dockerhub_username>/assignment6:prod
+          docker tag my-container mjaysaad/assignment6:prod
+          docker push mjaysaad/assignment6:prod
 
 
 
