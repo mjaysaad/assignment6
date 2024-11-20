@@ -2,7 +2,7 @@ name: Build and Push Container
 on:
   push:
     branches:
-      - main
+      - workinprogress
 
 jobs:
   build:
